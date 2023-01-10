@@ -3,8 +3,236 @@
         "coeff" : 0.1,
         "reponses" : [
             {"C’est un professionnel expert dans un domaine technique capable de résoudre des problèmes de haut niveau et innovants." : -4},
-            {"C’est un professionnel expert dans un domaine technique capable de résoudre des problèmes de haut niveau et innovants." : 3},
-            {"C’est un professionnel expert dans un domaine technique capable de résoudre des problèmes de haut niveau et innovants." : 1}
+            {"Un ingénieur est un Homme capable de prendre du recul et d’avoir une solide culture générale, technique et humaine." : 3},
+            {"C’est avant tout un cadre supérieur technique qui a pour mission de piloter un projet et de gérer une ou plusieurs équipes en interface avec le client." : 1}
         ]
-    }
+    },
+    
+    "2.1" : {
+        "coeff" : 0.3,
+        "reponses" : [
+            {"1" : -1},
+            {"2" : -2},
+            {"3" : -3}
+        ]
+    },
+
+    "2.2" : {
+        "coeff" : 0.3,
+        "reponses" : [
+            {"1" : 1},
+            {"2" : 2},
+            {"3" : 3}
+        ]
+    },
+
+"2.3" : {
+        "coeff" : 0.3,
+        "reponses" : [
+            {"1" : 0.5},
+            {"2" : 1},
+            {"3" : 2}
+        ]
+    },
+
+"3.1" : {
+        "coeff" : 0.5,
+        "reponses" : [
+            {"0" : -1},
+            {"1" : 0},
+            {"2" : 1},
+            {"3" : 2},
+            {"4" : 4}
+
+        ]
+    },
+
+    "3.2" : {
+        "coeff" : 0.5,
+        "reponses" : [
+            {"0" : -1},
+            {"1" : 0},
+            {"2" : 0.5},
+            {"3" : 1},
+            {"4" : 3}
+
+        ]
+    },
+    
+        "3.3" : {
+        "coeff" : 0.5,
+        "reponses" : [
+            {"0" : 1},
+            {"1" : -1},
+            {"2" : -2},
+            {"3" : -3},
+            {"4" : -4}
+
+        ]
+    },
+    
+            "3.4" : {
+        "coeff" : 0.5,
+        "reponses" : [
+            {"0" : -2},
+            {"1" : -1},
+            {"2" : 0},
+            {"3" : 1},
+            {"4" : 2}
+
+        ]
+    },
+    
+                "3.5" : {
+        "coeff" : 0.5,
+        "reponses" : [
+            {"0" : -1},
+            {"1" : 0},
+            {"2" : 1},
+            {"3" : 2},
+            {"4" : 3}
+
+        ]
+    },
+    
+                    "4" : {
+        "coeff" : 0.2,
+        "reponses" : [
+            {"Maths" : -1},
+            {"Physique/Chimie" : -1},
+            {"Littérature/Philosophie" : 2},
+            {"Histoire/Géographie" : 1},
+            {"Sciences de gestion" : 3},
+            {"Arts Plastiques/Arts appliqués" : 3},
+            {"Autre" : 0}
+    
+
+        ]
+    },
+    
+    "5" : {
+        "coeff" : 0.7,
+        "reponses" : [
+            {"Cryptographie (en Maths)" : -2},
+            {"Physique" : -1},
+            {"Anglais" : 1 },
+            {"Conduite de projet" : 1},
+            {"Droit du travail" : 1},
+            {"Electronique" : -3},
+            {"Programmation informatique" : -2},
+            {"Algorithmique" : -1},
+            {"Technologie de l’internet" : 2},
+            {"Architecture des ordinateurs" : -2},
+            {"Logique combinatoire et séquentielle" : -3},
+            {"Introduction aux IHM" : 2}   
+    
+
+        ]
+    },
+    
+        "6.1" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Ne connais pas" : 0},
+            {"Jamais" : 1},
+            {"Un peu" : -1 },
+            {"Régulièrement" : -2},
+            {"Tout le temps" : -3}
+    
+
+        ]
+    },
+    
+            "6.2" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Ne connais pas" : 0},
+            {"Jamais" : -1},
+            {"Un peu" : 1 },
+            {"Régulièrement" : 2},
+            {"Tout le temps" : 3}
+    
+
+        ]
+    },
+    
+                "6.3" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Ne connais pas" : 0},
+            {"Jamais" : -1},
+            {"Un peu" : 2 },
+            {"Régulièrement" : 4},
+            {"Tout le temps" : 6}
+    
+
+        ]
+    },
+    
+                    "6.4" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Ne connais pas" : 0},
+            {"Jamais" : -1},
+            {"Un peu" : 2 },
+            {"Régulièrement" : 4},
+            {"Tout le temps" : 6}
+    
+
+        ]
+    },
+    
+                        "6.5" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Ne connais pas" : 0},
+            {"Jamais" : -1},
+            {"Un peu" : 2 },
+            {"Régulièrement" : 4},
+            {"Tout le temps" : 6}
+    
+
+        ]
+    },
+    
+                            "6.6" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Ne connais pas" : 0},
+            {"Jamais" : 1},
+            {"Un peu" : -1 },
+            {"Régulièrement" : -2},
+            {"Tout le temps" : -3}
+    
+
+        ]
+    },
+    
+                                "6.7" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Ne connais pas" : 0},
+            {"Jamais" : 1},
+            {"Un peu" : -1 },
+            {"Régulièrement" : -2},
+            {"Tout le temps" : -3}
+    
+
+        ]
+    },
+    
+                                    "6.8" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Ne connais pas" : 0},
+            {"Jamais" : 1},
+            {"Un peu" : -2 },
+            {"Régulièrement" : -4},
+            {"Tout le temps" : -6}
+    
+
+        ]
+    },
+
+    
 }
