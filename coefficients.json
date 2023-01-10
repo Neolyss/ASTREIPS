@@ -234,5 +234,200 @@
         ]
     },
 
+                                        "7" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Imprimante 3D" : -2},
+            {"Drone" : -2},
+            {"Casque VR" : 2 },
+            {"Cartes électroniques programmables (Arduino, Raspberry...)" : -3},
+            {"Oscilloscope" : -3},
+            {"Casque neuronal" : -1},
+            {"Smartphones" : 1},
+             {"Rien, les ordis c’est très bien" : 3},
     
+
+        ]
+    },
+    
+                                      "8.1" : {
+        "coeff" : 0.4,
+        "reponses" : [
+            {"J'y suis" : 3},
+            {"Interessé" : 1},
+            {"Ne connais pas" : 0 },
+            {"Pas intéressé" : -1}
+
+    
+
+        ]
+    },
+    
+    
+                                          "8.2" : {
+        "coeff" : 0.4,
+        "reponses" : [
+            {"J'y suis" : 3},
+            {"Interessé" : 2},
+            {"Ne connais pas" : 0 },
+            {"Pas intéressé" : -1}
+
+    
+
+        ]
+    },
+    
+                                              "8.3" : {
+        "coeff" : 0.4,
+        "reponses" : [
+            {"J'y suis" : -3},
+            {"Interessé" : -2},
+            {"Ne connais pas" : 0 },
+            {"Pas intéressé" : 1}
+
+    
+
+        ]
+    },
+    
+                                                  "8.4" : {
+        "coeff" : 0.4,
+        "reponses" : [
+            {"J'y suis" : 3},
+            {"Interessé" : 1},
+            {"Ne connais pas" : 0 },
+            {"Pas intéressé" : -1}
+
+    
+
+        ]
+    },
+    
+                                                      "8.5" : {
+        "coeff" : 0.4,
+        "reponses" : [
+            {"J'y suis" : 3},
+            {"Interessé" : 2},
+            {"Ne connais pas" : 0 },
+            {"Pas intéressé" : -1}
+
+    
+
+        ]
+    },
+    
+                                                          "9" : {
+        "coeff" : 0.3,
+        "reponses" : [
+            {"Statue de Mario" : 3},
+            {"Boitier pour sa carte arduino" : -2},
+            {"Des boutons" : -2 },
+            {"Une coque de téléphone" : 1}
+
+    
+
+        ]
+    },
+    
+                                                              "9" : {
+        "coeff" : 0.3,
+        "reponses" : [
+            {"Statue de Mario" : 3},
+            {"Boitier pour sa carte arduino" : -2},
+            {"Des boutons" : -2 },
+            {"Une coque de téléphone" : 1}
+
+    
+
+        ]
+    },
+    
+                                                                  "10" : {
+        "coeff" : 0.2,
+        "reponses" : [
+            {"Lecture" : 1},
+            {"Bricolage" : -1},
+            {"Sport" : 0 },
+            {"Art Dessin" : 1},
+            {"Jeux vidéos" : 2},
+            {"Musique" : 1},
+            {"Musculation" : 0},
+            {"Autre" : 0}
+
+    
+
+        ]
+    },
+    
+                                                                      "11" : {
+        "coeff" : 0.7,
+        "reponses" : [
+            {"Oui" : 1},
+            {"Autre" : -1}
+
+    
+
+        ]
+    },
+    
+                                                                          "12" : {
+        "coeff" : 0.5,
+        "reponses" : [
+            {"Vous le démontez pour comprendre d'où vient le problème" : -2},
+            {"Vous essayez de le réparer en passant par le BIOS" : -1},
+            {"Vous allez voir un réparateur" : -1},
+            {"Vous en rachetez un" : 0}
+
+    
+
+        ]
+    },
+    
+                                                                              "13" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Prépa intégré" : -2},
+            {"Vous essayez de le réparer en passant par le BIOS" : -1},
+            {"Vous allez voir un réparateur" : -1},
+            {"Vous en rachetez un" : 0}
+
+    
+
+        ]
+    },
+    
+                                                                                  "14" : {
+        "coeff" : 0.6,
+        "reponses" : [
+            {"Prépa intégré" : 0},
+            {"CPGE ATS" : -2},
+            {"CPGE PT" : -1},
+            {"CPGE TSi" : -1},
+            {"CPGE MP" : -1},
+            {"CPGE BL" : 2},
+            {"CPGE MP2I/MPSI" : -1},
+            {"CPGE PC" : -0},
+            {"BTS SIO" : -1},
+            {"BTS SN" : -1},
+            {"CPGE MP2I/MPSI" : -1},
+            {"DUT Informatique" : 2},
+            {"DUT Métiers du Multimédia et Internet" : 3},
+            {"L2, L3 informatique" : 2},
+            {"M1, M2 informatique" : 2}
+    
+
+        ]
+    },
+    
+                                                                                      "15" : {
+        "coeff" : 0.5,
+        "reponses" : [
+            {"Windows" : 0},
+            {"MacOS" : 1},
+            {"Distribution Linux (Ubuntu, Debian, Arch...)" : -2}
+           
+    
+
+        ]
+    },
 }
