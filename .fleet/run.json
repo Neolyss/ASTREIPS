@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Run my script",
+            "type": "command",
+            "program": "C:\\Program Files\\OperaGX\\launcher.exe",
+            "args": ["file:///D:/ENSIM/ASTREIPS/index.html"]
+        }
+    ]
+}
