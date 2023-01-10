@@ -1,0 +1,10 @@
+{
+    "1" : {
+        "coeff" : 0.1,
+        "reponses" : [
+            {"C’est un professionnel expert dans un domaine technique capable de résoudre des problèmes de haut niveau et innovants." : -4},
+            {"C’est un professionnel expert dans un domaine technique capable de résoudre des problèmes de haut niveau et innovants." : 3},
+            {"C’est un professionnel expert dans un domaine technique capable de résoudre des problèmes de haut niveau et innovants." : 1}
+        ]
+    }
+}
