@@ -3,7 +3,7 @@
     "coeff": 0.1,
     "reponses": [
       {
-        "C’est un professionnel expert dans un domaine technique capable de résoudre des problèmes de haut niveau et innovants.": -4
+        "C’est un professionnel expert dans un domaine technique capable de résoudre des problèmes de haut niveau et innovants.": -1  
       },
       {
         "Un ingénieur est un Homme capable de prendre du recul et d’avoir une solide culture générale, technique et humaine.": 3
@@ -17,7 +17,7 @@
     "coeff": 0.2,
     "reponses": [
       {
-        "Maths": -1
+        "Maths": 0
       },
       {
         "Physique/Chimie": -1
@@ -29,7 +29,7 @@
         "Histoire/Géographie": 1
       },
       {
-        "Sciences de gestion": 3
+        "Sciences de gestion": 2
       },
       {
         "Arts Plastiques/Arts appliqués": 3
@@ -52,10 +52,10 @@
         "Anglais": 1
       },
       {
-        "Conduite de projet": 1
+        "Conduite de projet": 0
       },
       {
-        "Droit du travail": 1
+        "Droit du travail": 0
       },
       {
         "Electronique": -3
@@ -76,7 +76,7 @@
         "Logique combinatoire et séquentielle": -3
       },
       {
-        "Introduction aux IHM": 2
+        "Introduction aux IHM": 3
       }
     ]
   },
