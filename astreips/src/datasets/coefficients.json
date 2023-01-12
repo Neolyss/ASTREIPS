@@ -1,0 +1,872 @@
+[
+  {
+    "id": 2.1,
+    "coeff": 0.1,
+    "reponses": [
+      {
+        "texte": "C’est un professionnel expert dans un domaine technique capable de résoudre des problèmes de haut niveau et innovants.",
+        "coeff": -1
+      },
+      {
+        "texte": "Un ingénieur est un Homme capable de prendre du recul et d’avoir une solide culture générale, technique et humaine.",
+        "coeff": 3
+      },
+      {
+        "texte": "C’est avant tout un cadre supérieur technique qui a pour mission de piloter un projet et de gérer une ou plusieurs équipes en interface avec le client.",
+        "coeff": 1
+      }
+    ]
+  },
+  {
+    "id": 5.1,
+    "coeff": 0.2,
+    "reponses": [
+      {
+        "texte": "Maths",
+        "coeff": 0
+      },
+      {
+        "texte": "Physique/Chimie",
+        "coeff": -1
+      },
+      {
+        "texte": "Sciences de l'ingénieur",
+        "coeff": -2
+      },
+      {
+        "texte": "Littérature/Philosophie",
+        "coeff": 2
+      },
+      {
+        "texte": "Histoire/Géographie",
+        "coeff": 1
+      },
+      {
+        "texte": "Sciences de gestion",
+        "coeff": 2
+      },
+      {
+        "texte": "Arts Plastiques/Arts appliqués",
+        "coeff": 3
+      },
+      {
+        "texte": "Informatique et Sciences du Numérique",
+        "coeff": 2
+      },
+      {
+        "texte": "Informatique et Science du Numérique",
+        "coeff": 2
+      },
+      {
+        "texte": "Électronique numérique",
+        "coeff": -2
+      },
+      {
+        "texte": "Allemand",
+        "coeff": 0
+      },
+      {
+        "texte": "Sport",
+        "coeff": 0
+      },
+      {
+        "texte": "Autre",
+        "coeff": 0
+      }
+    ]
+  },
+  {
+    "id": 6.1,
+    "coeff": 0.7,
+    "reponses": [
+      {
+        "texte": "Cryptographie (en Maths)",
+        "coeff": -2
+      },
+      {
+        "texte": "Physique",
+        "coeff": -1
+      },
+      {
+        "texte": "Anglais",
+        "coeff": 0
+      },
+      {
+        "texte": "Conduite de projet",
+        "coeff": 0
+      },
+      {
+        "texte": "Droit du travail",
+        "coeff": 0
+      },
+      {
+        "texte": "Electronique",
+        "coeff": -3
+      },
+      {
+        "texte": "Programmation informatique",
+        "coeff": -1
+      },
+      {
+        "texte": "Algorithmique",
+        "coeff": -1
+      },
+      {
+        "texte": "Technologie de l’internet",
+        "coeff": 2
+      },
+      {
+        "texte": "Architecture des ordinateurs",
+        "coeff": -3
+      },
+      {
+        "texte": "Logique combinatoire et séquentielle",
+        "coeff": -2
+      },
+      {
+        "texte": "Introduction aux IHM",
+        "coeff": 3
+      }
+    ]
+  },
+  {
+    "id": 8.1,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte": "Imprimante 3D",
+        "coeff": -2
+      },
+      {
+        "texte": "Drone",
+        "coeff": -2
+      },
+      {
+        "texte": "Casque VR",
+        "coeff": 2
+      },
+      {
+        "texte": "Cartes électroniques programmables (Arduino, Raspberry...)",
+        "coeff": -3
+      },
+      {
+        "texte": "Oscilloscope",
+        "coeff": -3
+      },
+      {
+        "texte": "Casque neuronal",
+        "coeff": -1
+      },
+      {
+        "texte": "Smartphones",
+        "coeff": 1
+      },
+      {
+        "texte": "Rien, les ordis c’est très bien",
+        "coeff": 3
+      }
+    ]
+  },
+  {
+    "id": 10.1,
+    "coeff": 0.3,
+    "reponses": [
+      {
+        "texte" :"Statue de Mario",
+        "coeff": 3
+      },
+      {
+        "texte" :"Boitier pour sa carte arduino",
+        "coeff": -2
+      },
+      {
+        "texte" :"Des boutons",
+        "coeff": -2
+      },
+      {
+        "texte" :"Une coque de téléphone",
+        "coeff": 1
+      }
+    ]
+  },
+  {
+    "id": 11.1,
+    "coeff": 0.2,
+    "reponses": [
+      {
+        "texte" :"Lecture",
+        "coeff": 1
+      },
+      {
+        "texte" :"Bricolage",
+        "coeff": -1
+      },
+      {
+        "texte" :"Sport",
+        "coeff": 0
+      },
+      {
+        "texte" :"Art Dessin",
+        "coeff": 1
+      },
+      {
+        "texte" :"Jeux vidéos",
+        "coeff": 2
+      },
+      {
+        "texte" :"Musique",
+        "coeff": 1
+      },
+      {
+        "texte" :"Musculation",
+        "coeff": 0
+      },
+      {
+        "texte" :"Programmation",
+        "coeff": 1
+      },
+      {
+        "texte" :"Automatiser ma maison",
+        "coeff": -2
+      },
+      {
+        "texte" :"Cuisine/patisserie",
+        "coeff": 1
+      },
+      {
+        "texte" :"Jeux de société",
+        "coeff": 1
+      },
+      {
+        "texte" :"Trading",
+        "coeff": 2
+      },
+      {
+        "texte" :"Autre",
+        "coeff": 0
+      }
+    ]
+  },
+  {
+    "id": 12.1,
+    "coeff": 0.7,
+    "reponses": [
+      {
+        "texte" :"Oui",
+        "coeff": 2
+      },
+      {
+        "texte" :"Non",
+        "coeff": -1
+      }
+    ]
+  },
+  {
+    "id": 13.1,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte" :"Vous le démontez pour comprendre d'où vient le problème",
+        "coeff": -2
+      },
+      {
+        "texte" :"Vous essayez de le réparer en passant par le BIOS",
+        "coeff": -1
+      },
+      {
+        "texte" :"Vous allez voir un réparateur",
+        "coeff": 1
+      },
+      {
+        "texte" :"Vous en rachetez un",
+        "coeff": 0
+      }
+    ]
+  },
+  {
+    "id": 14.1,
+    "coeff": 0.6,
+    "reponses": [
+      {
+        "texte" :"Prépa intégré",
+        "coeff": 0
+      },
+      {
+        "texte" :"CPGE ATS",
+        "coeff": -2
+      },
+      {
+        "texte" :"CPGE PT",
+        "coeff": -1
+      },
+      {
+        "texte" :"CPGE TSi",
+        "coeff": -1
+      },
+      {
+        "texte" :"CPGE MP",
+        "coeff": -1
+      },
+      {
+        "texte" :"CPGE BL",
+        "coeff": 2
+      },
+      {
+        "texte" :"CPGE MP2I/MPSI",
+        "coeff": -1
+      },
+      {
+        "texte" :"CPGE PC",
+        "coeff": 0
+      },
+      {
+        "texte" :"BTS SIO",
+        "coeff": -1
+      },
+      {
+        "texte" :"BTS SN",
+        "coeff": -1
+      },
+      {
+        "texte" :"CPGE MP2I/MPSI",
+        "coeff": -1
+      },
+      {
+        "texte" :"DUT Informatique",
+        "coeff": 2
+      },
+      {
+        "texte" :"DUT Métiers du Multimédia et Internet",
+        "coeff": 3
+      },
+      {
+        "texte" :"L2, L3 informatique",
+        "coeff": 2
+      },
+      {
+        "texte" :"M1, M2 informatique",
+        "coeff": 2
+      }
+    ]
+  },
+  {
+    "id": 15.1,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte" :"Windows",
+        "coeff": 0
+      },
+      {
+        "texte" :"MacOS",
+        "coeff": 1
+      },
+      {
+        "texte" :"Distribution Linux (Ubuntu, Debian, Arch...)",
+        "coeff": -2
+      }
+    ]
+  },
+  {
+    "id": 3.1,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte": "1",
+        "coeff": 0
+      },
+      {
+        "texte": "2",
+        "coeff": 1
+      },
+      {
+        "texte": "3",
+        "coeff": -3
+      }
+    ]
+  },
+  {
+    "id": 3.2,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte": "1",
+        "coeff": 1
+      },
+      {
+        "texte": "2",
+        "coeff": 2
+      },
+      {
+        "texte": "3",
+        "coeff": 3
+      }
+    ]
+  },
+  {
+    "id": 3.3,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte": "1",
+        "coeff": 0.5
+      },
+      {
+        "texte": "2",
+        "coeff": 1
+      },
+      {
+        "texte": "3",
+        "coeff": 2
+      }
+    ]
+  },
+  {
+    "id": 4.1,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte": "0",
+        "coeff": -1
+      },
+      {
+        "texte": "1",
+        "coeff": 1
+      },
+      {
+        "texte": "2",
+        "coeff": 2
+      },
+      {
+        "texte": "3",
+        "coeff": 3
+      },
+      {
+        "texte": "4",
+        "coeff": 4
+      }
+    ]
+  },
+  {
+    "id": 4.2,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte": "0",
+        "coeff": -1
+      },
+      {
+        "texte": "1",
+        "coeff": 1
+      },
+      {
+        "texte": "2",
+        "coeff": 2
+      },
+      {
+        "texte": "3",
+        "coeff": 3
+      },
+      {
+        "texte": "4",
+        "coeff": 4
+      }
+    ]
+  },
+  {
+    "id": 4.3,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte": "0",
+        "coeff": 1
+      },
+      {
+        "texte": "1",
+        "coeff": -1
+      },
+      {
+        "texte": "2",
+        "coeff": -2
+      },
+      {
+        "texte": "3",
+        "coeff": -3
+      },
+      {
+        "texte": "4",
+        "coeff": -4
+      }
+    ]
+  },
+  {
+    "id": 4.4,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte": "0",
+        "coeff": -1
+      },
+      {
+        "texte": "1",
+        "coeff": 1
+      },
+      {
+        "texte": "2",
+        "coeff": 2
+      },
+      {
+        "texte": "3",
+        "coeff": 3
+      },
+      {
+        "texte": "4",
+        "coeff": 4
+      }
+    ]
+  },
+  {
+    "id": 4.5,
+    "coeff": 0.5,
+    "reponses": [
+      {
+        "texte": "0",
+        "coeff": -1
+      },
+      {
+        "texte": "1",
+        "coeff": 1
+      },
+      {
+        "texte": "2",
+        "coeff": 2
+      },
+      {
+        "texte": "3",
+        "coeff": 3
+      },
+      {
+        "texte": "4",
+        "coeff": 4
+      }
+    ]
+  },
+  {
+    "id": 7.1,
+    "coeff": 0.6,
+    "reponses": [
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Jamais",
+        "coeff": 1
+      },
+      {
+        "texte" :"Un peu",
+        "coeff": -1
+      },
+      {
+        "texte" :"Régulièrement",
+        "coeff": -2
+      },
+      {
+        "texte" :"Tout le temps",
+        "coeff": -3
+      }
+    ]
+  },
+  {
+    "id": 7.2,
+    "coeff": 0.6,
+    "reponses": [
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Jamais",
+        "coeff": -1
+      },
+      {
+        "texte" :"Un peu",
+        "coeff": 1
+      },
+      {
+        "texte" :"Régulièrement",
+        "coeff": 2
+      },
+      {
+        "texte" :"Tout le temps",
+        "coeff": 3
+      }
+    ]
+  },
+  {
+    "id": 7.3,
+    "coeff": 0.6,
+    "reponses": [
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Jamais",
+        "coeff": -1
+      },
+      {
+        "texte" :"Un peu",
+        "coeff": 1
+      },
+      {
+        "texte" :"Régulièrement",
+        "coeff": 2
+      },
+      {
+        "texte" :"Tout le temps",
+        "coeff": 3
+      }
+    ]
+  },
+  {
+    "id": 7.4,
+    "coeff": 0.6,
+    "reponses": [
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Jamais",
+        "coeff": -1
+      },
+      {
+        "texte" :"Un peu",
+        "coeff": 1
+      },
+      {
+        "texte" :"Régulièrement",
+        "coeff": 2
+      },
+      {
+        "texte" :"Tout le temps",
+        "coeff": 3
+      }
+    ]
+  },
+  {
+    "id": 7.5,
+    "coeff": 0.6,
+    "reponses": [
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Jamais",
+        "coeff": -1
+      },
+      {
+        "texte" :"Un peu",
+        "coeff": 1
+      },
+      {
+        "texte" :"Régulièrement",
+        "coeff": 2
+      },
+      {
+        "texte" :"Tout le temps",
+        "coeff": 3
+      }
+    ]
+  },
+  {
+    "id": 7.6,
+    "coeff": 0.6,
+    "reponses": [
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Jamais",
+        "coeff": 1
+      },
+      {
+        "texte" :"Un peu",
+        "coeff": -1
+      },
+      {
+        "texte" :"Régulièrement",
+        "coeff": -2
+      },
+      {
+        "texte" :"Tout le temps",
+        "coeff": -3
+      }
+    ]
+  },
+  {
+    "id": 7.7,
+    "coeff": 0.6,
+    "reponses": [
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Jamais",
+        "coeff": 1
+      },
+      {
+        "texte" :"Un peu",
+        "coeff": -1
+      },
+      {
+        "texte" :"Régulièrement",
+        "coeff": -2
+      },
+      {
+        "texte" :"Tout le temps",
+        "coeff": -3
+      }
+    ]
+  },
+  {
+    "id": 7.8,
+    "coeff": 0.6,
+    "reponses": [
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Jamais",
+        "coeff": 1
+      },
+      {
+        "texte" :"Un peu",
+        "coeff": -1
+      },
+      {
+        "texte" :"Régulièrement",
+        "coeff": -2
+      },
+      {
+        "texte" :"Tout le temps",
+        "coeff": -3
+      }
+    ]
+  },
+  {
+    "id": 9.1,
+    "coeff": 0.4,
+    "reponses": [
+      {
+        "texte" :"J'y suis",
+        "coeff": 3
+      },
+      {
+        "texte" :"Interessé",
+        "coeff": 1
+      },
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Pas intéressé",
+        "coeff": -1
+      }
+    ]
+  },
+  {
+    "id": 9.2,
+    "coeff": 0.4,
+    "reponses": [
+      {
+        "texte" :"J'y suis",
+        "coeff": 3
+      },
+      {
+        "texte" :"Interessé",
+        "coeff": 1
+      },
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Pas intéressé",
+        "coeff": -1
+      }
+    ]
+  },
+  {
+    "id": 9.3,
+    "coeff": 0.4,
+    "reponses": [
+      {
+        "texte" :"J'y suis",
+        "coeff": -3
+      },
+      {
+        "texte" :"Interessé",
+        "coeff": -1
+      },
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Pas intéressé",
+        "coeff": 1
+      }
+    ]
+  },
+  {
+    "id": 9.4,
+    "coeff": 0.4,
+    "reponses": [
+      {
+        "texte" :"J'y suis",
+        "coeff": 3
+      },
+      {
+        "texte" :"Interessé",
+        "coeff": 1
+      },
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Pas intéressé",
+        "coeff": -1
+      }
+    ]
+  },
+  {
+    "id": 9.5,
+    "coeff": 0.4,
+    "reponses": [
+      {
+        "texte" :"J'y suis",
+        "coeff": 3
+      },
+      {
+        "texte" :"Interessé",
+        "coeff": 1
+      },
+      {
+        "texte" :"Ne connais pas",
+        "coeff": 0
+      },
+      {
+        "texte" :"Pas intéressé",
+        "coeff": -1
+      }
+    ]
+  }
+]
