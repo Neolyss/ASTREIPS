@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -8,12 +8,15 @@ import {
     Tooltip,
     Legend,
 } from 'chart.js';
-import {faker} from "@faker-js/faker";
+
 import {Bar} from "react-chartjs-2";
 import Papa from "papaparse";
 import csvFilePath from "../datasets/answers.tsv";
-import coefs from "../datasets/coefficients.json";
-import coefficients from "../datasets/coefficients.json";
+
+
+
+import accents from "remove-accents"
+import {CoeffContext} from "../context/coeffContexts";
 
 ChartJS.register(
     CategoryScale,
@@ -25,8 +28,8 @@ ChartJS.register(
 );
 
 function Display(){
-    var accents = require("remove-accents")
-    const ref = React.useRef();
+    const { coefficients } = useContext(CoeffContext);
+
     const [options] = useState({
         indexAxis: 'y',
         elements: {
@@ -39,9 +42,12 @@ function Display(){
             legend: {
                 position: 'right',
             },
+            labels: {
+
+            },
             title: {
                 display: true,
-                text: 'Chart.js Horizontal Bar Chart',
+                text: 'Choix ASTRE/IPS',
             },
         },
     })
@@ -49,6 +55,39 @@ function Display(){
         labels: [],
         datasets: [],
     })
+
+    function hexAToRGBA(h) {
+        let r = 0, g = 0, b = 0, a = 1;
+
+        if (h.length === 5) {
+            r = "0x" + h[1] + h[1];
+            g = "0x" + h[2] + h[2];
+            b = "0x" + h[3] + h[3];
+            a = "0x" + h[4] + h[4];
+
+        } else if (h.length === 9) {
+            r = "0x" + h[1] + h[2];
+            g = "0x" + h[3] + h[4];
+            b = "0x" + h[5] + h[6];
+            a = "0x" + h[7] + h[8];
+        }
+        a = +(a / 255).toFixed(3);
+
+        return "rgba(" + +r + "," + +g + "," + +b + "," + a + ")";
+    }
+
+    function colorize(opaque) {
+        return (ctx) => {
+            const v = ctx.parsed.x;
+            const red = "#ff6384";
+            const blue = "#35a2eb";
+            let c = v < 0 ? red : blue
+            if(!opaque) {
+                c += "77";
+            }
+            return opaque ? c : hexAToRGBA(c)
+        };
+    }
 
     function getQuestionCoefficients(question, counter, coefficients) {
         let index = "0"
@@ -69,22 +108,22 @@ function Display(){
     function getCoeffFromAnswer(questionCoefficients, answer) {
         let matchAnswer = ""
         for (const reponse of questionCoefficients.reponses) {
-            console.log(questionCoefficients.id + " -- Reponse du gars -- " + answer)
+            //console.log(questionCoefficients.id + " -- Reponse du gars -- " + answer)
             if(answer === "") {
                 return 0
             }
             let responseAccents= accents.remove(reponse.texte.toLowerCase())
             let answerAccents = accents.remove(answer.toLowerCase())
             if (responseAccents.localeCompare(answerAccents) === 0) {
-                console.log(questionCoefficients.id + " => " + reponse.texte)
+                //console.log(questionCoefficients.id + " => " + reponse.texte)
                 matchAnswer = reponse
             }
         }
         if (matchAnswer === undefined) {
-            console.log(questionCoefficients.id + " PAS BON !")
+            //console.log(questionCoefficients.id + " PAS BON !")
             return 0
         } else {
-            console.log(questionCoefficients.id + " => " + matchAnswer.coeff)
+            //console.log(questionCoefficients.id + " => " + matchAnswer.coeff)
             return matchAnswer.coeff
         }
 
@@ -92,7 +131,6 @@ function Display(){
 
     function updateData(resultData) {
         const newLabel = []
-        let coefficients = require('../datasets/coefficients.json');
         let scoreStudents = []
         //console.log(coefficients)
         resultData.map((row) => { // For each student
@@ -100,7 +138,7 @@ function Display(){
             let keys = Object.keys(row)
             let labelKey = keys.shift() // Retrieve the id of the current student
             let label = row[labelKey]
-            console.log("STUDENT = " + label)
+            //console.log("STUDENT = " + label)
             newLabel.push(label)
             let counter = new Map()
             for (const question of keys) { // For all the questions
@@ -114,7 +152,7 @@ function Display(){
                 if(split.length === 1) { // If this is simple question
                     sumQuestion += getCoeffFromAnswer(questionCoefficients, answer);
                 } else { // Multiple choices
-                    console.log(split)
+                    //console.log(split)
                     let sumMultiple = 0
                     for (const answer of split) {
                         sumMultiple += getCoeffFromAnswer(questionCoefficients, answer.trim());
@@ -122,19 +160,19 @@ function Display(){
                     sumQuestion += sumMultiple
                 }
                 //console.log("question " + question + " ---" + questionCoefficients.id)
-                console.log(questionCoefficients.id + " sumQ " + sumQuestion)
+                //console.log(questionCoefficients.id + " sumQ " + sumQuestion)
                 score += sumQuestion * coefficientGlobal
             }
-            console.log(score)
+            //console.log(score)
             scoreStudents.push(score)
         })
         const newData = {...data}
 
         newData.datasets = [{
-            label: 'Score',
+            label: "Score",
             data: scoreStudents,
-            borderColor: 'rgb(255, 99, 132)',
-            backgroundColor: 'rgba(255, 99, 132, 0.5)'
+            borderColor: colorize(true),
+            backgroundColor: colorize(false)
         }]
 
         newData.labels = newLabel;
@@ -150,7 +188,7 @@ function Display(){
                 updateData(results.data);
             }
         });
-    }, [])
+    })
 
     return(
         <Bar options={options} data={data} />
