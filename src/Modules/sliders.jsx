@@ -31,7 +31,7 @@ export default function Sliders() {
 
     return <div style={{width: '80vw', marginTop: "5vh", marginBottom: "5vh"}}>
         <Button variant='outlined' onClick={reset}>
-            OSEF
+            REFRESH
         </Button>
         <Typography>Change Coefficients</Typography>
             {
